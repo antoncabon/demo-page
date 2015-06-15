@@ -4,7 +4,7 @@ a:link {
   outline: none;
   transition: all 0.25s;
 }
-
+p {text-align:center;padding:10px;}
 a:visited,
 a:link:hover,
 a:visited:hover {
