@@ -1,0 +1,16 @@
+#recentpostnav{border:1px solid #585858;width:100%;margin:0 auto}
+#recentpostsae{margin:0}
+.recentpostel{background:#fff;display:block;border:1px solid #ddd;margin:5px 0;padding:10px;height:79px}
+.recentpostel img{background:#fff;padding:4px;float:left;height:70px;margin-right:8px;width:70px;border:1px solid #ddd}
+.recentpostel h6,.recentpostel h6 a{text-decoration:none;font-size:13px!important;font-weight:700!important;margin:0;color:#111}
+.recentpostel:hover{background-color:#fefefe}
+.recentpostel p{font-size:12px;text-align:left;color:#555;line-height:normal;margin:5px 0}
+#recentpostload{color:#888;font-family:Tahoma;font-size:100px;letter-spacing:-10px;text-align:center;text-shadow:-5px 0 1px #444;background:url(http://2.bp.blogspot.com/-60aISBQLRY0/VFBMqzLfzGI/AAAAAAAABgM/GInmVTvEzkc/s1600/loader.gif) 50% 50% no-repeat #fff;height:470px;border:1px solid #ddd}
+#recentpostnavfeed{border:1px solid #ddd;color:#bbb;font-family:Verdana;font-size:12px;text-align:center;margin:0}
+#recentpostnavfeed:hover{background-color:#fefefe}
+#recentpostnavfeed a{color:#141414!important;font-family:Tahoma!important;font-size:12px!important;font-weight:400!important;display:block;padding:5px 10px}
+#recentpostnavfeed span{padding:5px 10px}
+#recentpostnavfeed .next{float:right}
+#recentpostnavfeed .previous{float:left}
+#recentpostnavfeed .home{text-align:center}
+#recentpostnavfeed a:hover,#recentpostnavfeed span.noactived{color:transparant!important}
