@@ -170,3 +170,202 @@ body {
 .social-lin{background-position:0 -129px}
 .social-share a{color:#999;transition:all .3s;}
 .social-share a:hover{color:#7cb0ed}
+.containerc {
+  max-width: 1100px;
+  margin: 12% auto;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+/* Multi Feed Label */
+
+.post-body *,
+.post-body *:after,
+.post-body *:before {
+  box-sizing: initial;
+  -webkit-box-sizing: initial;
+  -moz-box-sizing: initial;
+}
+
+.list-entries {
+  display: table;
+  background: #fdfdfd;
+  margin: 1.5% 1%;
+  width: 31.3%;
+  float: left;
+  font-size: 80%;
+}
+
+.list-entries ul,
+.list-entries li {
+  margin: 0;
+  list-style: none
+}
+
+#feed-list-container ul li {
+  background: #fdfdfd;
+  padding: 15px;
+  line-height: normal;
+  border: 1px solid #eee;
+  border-top: 0;
+  transition: all .3s;
+}
+
+#feed-list-container ul li:hover {
+  background: #fff;
+}
+
+#feed-list-container ul li:last-child {
+  border-bottom: 0;
+}
+
+.list-entries .main-title {
+  padding: 0;
+  overflow: hidden;
+}
+
+.list-entries .main-title h4 {
+  position: relative;
+  display: block;
+  font: inherit;
+  font-weight: 700;
+  padding: 1em 1.5em;
+  background-color: #4f93c5;
+  color: #fff;
+  margin: 0;
+  line-height: normal;
+  font-size: 120%;
+  margin-top: 0!important
+}
+
+.list-entries .main-title h4:after {
+  display: inline-block;
+  content: "\f02c";
+  font-family: fontAwesome;
+  font-size: 17.4px;
+  font-style: normal;
+  background-color: #4384b3;
+  color: #fff;
+  top: 0;
+  right: 0;
+  padding: 1em 1.25em;
+  position: absolute;
+  font-weight: 400
+}
+
+.list-entries .title a {
+  font-size: 13px;
+  text-decoration: none;
+  line-height: .5em;
+  color: #333;
+  font-weight: 700;
+  transition: all .3s;
+}
+
+.list-entries .title a:hover {
+  color: #4f93c5
+}
+
+.list-entries img,
+.list-entries .fake-img {
+  border: none;
+  background-color: #333;
+  margin: 0 1em 0 0;
+  padding: 0;
+  float: left
+}
+
+.list-entries .summary {
+  overflow: hidden;
+  color: #999
+}
+
+.list-entries .more-link {
+  border-bottom: none;
+}
+
+.list-entries .more-link a {
+  display: block;
+  line-height: 2em;
+  height: 2em;
+  overflow: hidden;
+  text-decoration: none;
+  background-color: #444;
+  padding: 1em 1.5em;
+  position: relative;
+  font-weight: 400;
+  color: #fff;
+  transition: all .3s;
+}
+
+.list-entries .more-link a:hover {
+  background-color: #f97e76;
+  color: #fff;
+}
+
+.list-entries .more-link a:after {
+  display: inline-block;
+  content: "\f054";
+  font-family: fontAwesome;
+  font-size: 16.4px;
+  font-style: normal;
+  background-color: #333;
+  color: #ccc;
+  top: 0;
+  right: 0;
+  padding: 1em 1.25em;
+  position: absolute;
+  font-weight: 400;
+  transition: all .3s;
+}
+
+.list-entries .more-link a:hover:after {
+  background-color: #ea726a;
+  color: #fff;
+}
+
+#Blog1 {
+  margin-right: 0;
+}
+
+#main-wrapper {
+  width: 100%;
+}
+
+#sidebar-wrapper {
+  display: none;
+}
+
+.breadcrumbs,
+.post.hentry {
+  background: transparent;
+}
+
+h2.post_title.entry-title,
+.breadcrumbs {
+  margin-bottom: 0;
+  padding: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.post.hentry {
+  padding-top: 0;
+}
+
+.widget .post-body ul,
+.widget .post-body ol {
+  position: relative;
+}
+
+@media (max-width:640px) {
+  .list-entries {
+    width: 100%;
+  }
+  .list-entries {
+    margin: 2.5% 1%;
+  }
+  .containerc {
+    padding: 20px;
+  }
+}
