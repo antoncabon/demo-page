@@ -46,5 +46,44 @@ function antoncabonfeed(e,t){for(var n=e.split("<"),r=0;r<n.length;r++)-1!=n[r].
 </div>
 </div>
   </div>
+  <div class="containerc">
+<div id="feed-list-container">
+</div>
+<div style="clear:both;">
+</div>
+<script type="text/javascript">
+var multiFeed = {
+    feedsUri: [
+        {
+            name: "JUDUL LABEL",
+            url: "URL-BLOG",
+            tag: "NAMA LABEL"
+        },
+        {
+            name: "JUDUL LABEL",
+            url: "URL-BLOG",
+            tag: "NAMA LABEL"
+        },
+        {
+            name: "JUDUL LABEL",
+            url: "URL-BLOG",
+            tag: "NAMA LABEL"
+        }
+],
+    numPost: 4,
+    showThumbnail: true,
+    showSummary: false,
+    summaryLength: 0,
+    titleLength: "auto",
+    thumbSize: 72,
+    containerId: "feed-list-container",
+    readMore: {
+        text: "Selengkapnya",
+        endParam: "?max-results=5"
+    }
+};
+</script>
+<script src="https://cdn.rawgit.com/antoncabon/file/master/multifeed.js" type="text/javascript"></script>
+</div>
   </body>
 </html>
