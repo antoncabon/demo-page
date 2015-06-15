@@ -30,6 +30,16 @@ body {
   border: 1px solid #ccc;
   font-family: 'Open Sans', sans-serif;
 }
+.containerb{
+  background: #fff;
+  width:100%;
+  max-width: 600px;
+  margin: 5% auto;
+  padding: 10px;
+  box-shadow: 0 10px 5px -5px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  font-family: 'Open Sans', sans-serif;
+}
 /* Recent Post Navigasi */
 
 #recentpostnav {
@@ -136,3 +146,17 @@ body {
 #recentpostnavfeed span.noactived {
   color: transparant!important;
 }
+/* CSS Share Button */
+.social-share{display:block;position:relative;height:43px;line-height:43px;padding:10px;border-top:1px solid #dadada;border-bottom:1px solid #dadada;margin:auto}
+.social-share-fb,.social{float:left;width:21%;padding:0 10px;height:inherit}
+.social-share-tw,.social,.social-lk{float:left;width:21%;height:inherit;padding:0 10px;border-left:solid 1px #dadada}
+.social-fb,.social-tw,.social-gp,.social-lin,.social-pi{float:left;display:block;background:url('http://4.bp.blogspot.com/-vLwRBNvUkfg/VX7v8vgGrSI/AAAAAAAAD80/w7Xfb-iimLM/s1600/share-social.png') no-repeat;width:42px;height:41px;margin-right:3px}
+.social-fb-label{color:#2d609b}
+.social-fb-label,.social-tw-label,.social-gp-label,.social-lin-label{float:left;width:58px;height:inherit;font-size:12px;font-family:'Open Sans Bold',Arial,sans-serif;line-height:14px;margin:5px 0 0 4px}
+.social-tw{background-position:0 -43px}
+.social-tw-label{color:#00c3f3}
+.social-gp{background-position:0 -86px}
+.social-gp-label{color:#f00}
+.social-lin{background-position:0 -129px}
+.social-share a{color:#999;transition:all .3s;}
+.social-share a:hover{color:#7cb0ed}
